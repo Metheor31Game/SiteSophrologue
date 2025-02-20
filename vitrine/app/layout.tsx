@@ -15,16 +15,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="fr">
-      <body className="bg-amber-50 text-brown-900 font-chill">
-        <nav className="bg-amber-100 p-4 shadow-md flex justify-between items-center">
-          <div className="text-lg font-bold">Sophrologie</div>
+      <body className="bg-blanc-casse text-foreground font-chill">
+        <nav className="bg-vert-clair p-4 shadow-md flex justify-between items-center">
+          <div className="text-lg font-bold text-vert-fonce">Sophrologie</div>
           
           {/* Menu desktop */}
           <div className="hidden md:flex space-x-6">
-            <Link href="/" className="hover:text-amber-700">Accueil</Link>
-            <Link href="/sophrologie" className="hover:text-amber-700">La Sophrologie</Link>
-            <Link href="/sophrologue" className="hover:text-amber-700">Le Sophrologue</Link>
-            <Link href="/contact" className="hover:text-amber-700">Contact</Link>
+            <Link href="/" className="text-vert-fonce hover:text-marron-doux">Accueil</Link>
+            <Link href="/sophrologie" className="text-vert-fonce hover:text-marron-doux">La Sophrologie</Link>
+            <Link href="/sophrologue" className="text-vert-fonce hover:text-marron-doux">Le Sophrologue</Link>
+            <Link href="/contact" className="text-vert-fonce hover:text-marron-doux">Contact</Link>
           </div>
           
           {/* Bouton menu mobile */}
@@ -35,11 +35,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
         
         {/* Menu mobile */}
         {menuOpen && (
-          <div className="md:hidden flex flex-col items-center bg-amber-100 p-4 space-y-4">
-            <Link href="/" className="hover:text-amber-700" onClick={() => setMenuOpen(false)}>Accueil</Link>
-            <Link href="/sophrologie" className="hover:text-amber-700" onClick={() => setMenuOpen(false)}>La Sophrologie</Link>
-            <Link href="/sophrologue" className="hover:text-amber-700" onClick={() => setMenuOpen(false)}>Le Sophrologue</Link>
-            <Link href="/contact" className="hover:text-amber-700" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <div className="md:hidden flex flex-col items-center bg-vert-clair p-4 space-y-4">
+            <Link href="/" className="text-vert-fonce hover:text-marron-doux" onClick={() => setMenuOpen(false)}>Accueil</Link>
+            <Link href="/sophrologie" className="text-vert-fonce hover:text-marron-doux" onClick={() => setMenuOpen(false)}>La Sophrologie</Link>
+            <Link href="/sophrologue" className="text-vert-fonce hover:text-marron-doux" onClick={() => setMenuOpen(false)}>Le Sophrologue</Link>
+            <Link href="/contact" className="text-vert-fonce hover:text-marron-doux" onClick={() => setMenuOpen(false)}>Contact</Link>
           </div>
         )}
         
