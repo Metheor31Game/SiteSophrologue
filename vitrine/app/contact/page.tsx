@@ -5,7 +5,7 @@ export default function ContactPage() {
   const [contactType, setContactType] = useState(""); // Gère le type de contact sélectionné
 
   return (
-    <div className="text-center p-6 bg-background text-foreground">
+    <div className="bg-blanc-casse rounded-xl text-center p-6 bg-background text-foreground">
       <h1 className="text-3xl font-bold text-vert-fonce mb-4">Contact</h1>
       <p className="text-lg mb-6 text-marron-doux">
         Prenez rendez-vous ou posez vos questions.
