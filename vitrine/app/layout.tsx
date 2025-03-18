@@ -18,7 +18,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         {/* 🔹 Image de fond qui reste fixe en arrière-plan */}
         <div
           className="fixed top-0 left-0 w-full h-full bg-cover bg-center -z-10"
-          style={{ backgroundImage: "url('/images/foret.jpg')" }}
+          style={{ backgroundImage: "url('/images/foret.jpeg')" }}
         ></div>
 
         <nav className="bg-vert-clair p-4 shadow-md flex justify-between items-center">
