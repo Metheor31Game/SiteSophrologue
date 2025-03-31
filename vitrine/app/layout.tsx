@@ -36,6 +36,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
               La Sophrologie
             </Link>
             <Link
+              href="/seance"
+              className="text-vert-fonce hover:text-marron-doux"
+            >
+              Séance
+            </Link>
+            <Link
               href="/sophrologue"
               className="text-vert-fonce hover:text-marron-doux"
             >
