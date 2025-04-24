@@ -39,13 +39,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
               href="/seance"
               className="text-vert-fonce hover:text-marron-doux"
             >
-              Séance
+              Déroulement d&apos;une séance
             </Link>
             <Link
               href="/sophrologue"
               className="text-vert-fonce hover:text-marron-doux"
             >
-              Qui suis-je
+              Qui suis-je ?
             </Link>
             <Link
               href="/contact"
@@ -79,11 +79,18 @@ export default function RootLayout({ children }: RootLayoutProps) {
               La Sophrologie
             </Link>
             <Link
+              href="/seance"
+              className="text-vert-fonce hover:text-marron-doux"
+              onClick={() => setMenuOpen(false)}
+            >
+              Déroulement d&apos;une séance
+            </Link>
+            <Link
               href="/sophrologue"
               className="text-vert-fonce hover:text-marron-doux"
               onClick={() => setMenuOpen(false)}
             >
-              Le Sophrologue
+              Qui suis-je ?
             </Link>
             <Link
               href="/contact"

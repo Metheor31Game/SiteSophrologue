@@ -14,12 +14,12 @@ export default function ContactPage() {
       {/* Carte de visite */}
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-md mx-auto">
         <h2 className="text-xl font-semibold text-marron-doux">Raji Elmasri</h2>
-        <p className="text-marron-doux">Sophrologue certifié</p>
-        <p className="text-marron-doux mt-2">
+        <p className="text-vert-fonce">Sophrologue certifié</p>
+        <p className="text-vert-fonce mt-2">
           7 esplanade du muretain, 31600 Muret
         </p>
-        <p className="text-marron-doux">Tél: 06 61 19 88 50</p>
-        <p className="text-marron-doux">Email: raji.elmasri@gmail.com</p>
+        <p className="text-vert-fonce">Tél: 06 61 19 88 50</p>
+        <p className="text-vert-fonce">Email: raji.elmasri@gmail.com</p>
       </div>
 
       {/* Horaires */}
