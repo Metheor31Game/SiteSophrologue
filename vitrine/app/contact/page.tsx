@@ -26,7 +26,6 @@ export default function ContactPage() {
         <iframe
           title="Localisation du cabinet"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.039483381842!2d1.3138313654881735!3d43.4388913498842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aec9a79fc067a3%3A0xf7467b0c03f93ee0!2s7%20Esp.%20du%20Muretain%2C%2031600%20Muret!5e0!3m2!1sfr!2sfr!4v1745570738494!5m2!1sfr!2sfr"
-          
           width="100%"
           height="400"
           style={{ border: 0 }}
@@ -150,7 +149,7 @@ export default function ContactPage() {
                 </label>
                 <textarea
                   className="w-full p-2 border border-gray-300 rounded-md"
-                  rows="3"
+                  // rows="3"
                   placeholder="Ajoutez des précisions si nécessaire..."
                 ></textarea>
               </>
@@ -164,7 +163,7 @@ export default function ContactPage() {
                 </label>
                 <textarea
                   className="w-full p-2 border border-gray-300 rounded-md"
-                  rows="3"
+                  // rows="3"
                   placeholder="Posez votre question ici..."
                 ></textarea>
               </>
