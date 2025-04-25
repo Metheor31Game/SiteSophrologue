@@ -2,7 +2,7 @@ export default function SophrologiePage() {
   return (
     <div className="bg-blanc-casse rounded-xl text-center p-6">
       <h1 className="text-4xl font-bold text-vert-fonce mb-6">
-        Découvrez la Sophrologie : Une Clé vers l'Équilibre Intérieur
+        Découvrez la Sophrologie : Une Clé vers l&apos;Équilibre Intérieur
       </h1>
 
       {/* Introduction immersive */}
@@ -28,27 +28,27 @@ export default function SophrologiePage() {
         </p>
         <ul className="text-marron-doux text-left list-disc pl-6 space-y-2">
           <li>
-            ✨ Réduction du{" "}
-            <span className="font-semibold">stress et de l'anxiété</span>
+            Réduction du{" "}
+            <span className="font-semibold">stress et de l&apos;anxiété</span>
           </li>
           <li>
-            💤 Amélioration du <span className="font-semibold">sommeil</span> et
+            Amélioration du <span className="font-semibold">sommeil</span> et
             de la récupération
           </li>
           <li>
-            🧘 Développement de la{" "}
+            Développement de la{" "}
             <span className="font-semibold">
               confiance en soi et de l’estime de soi
             </span>
           </li>
           <li>
-            🌀 Gestion des{" "}
+            Gestion des{" "}
             <span className="font-semibold">
               émotions et des douleurs chroniques
             </span>
           </li>
           <li>
-            🎯 Amélioration de la{" "}
+            Amélioration de la{" "}
             <span className="font-semibold">
               concentration et de la performance
             </span>
@@ -66,29 +66,29 @@ export default function SophrologiePage() {
         </p>
         <ul className="text-marron-doux text-left list-disc pl-6 space-y-2">
           <li>
-            👩‍💼 <span className="font-semibold">Gestion du stress</span> en
+            <span className="font-semibold">Gestion du stress</span> en
             entreprise et amélioration du bien-être au travail
           </li>
           <li>
-            🏃 <span className="font-semibold">Préparation mentale</span> des
+            <span className="font-semibold">Préparation mentale</span> des
             sportifs et des artistes
           </li>
           <li>
-            🤰{" "}
+            {" "}
             <span className="font-semibold">
               Accompagnement des femmes enceintes
             </span>{" "}
             pour un accouchement serein
           </li>
           <li>
-            🩺{" "}
+            {" "}
             <span className="font-semibold">
               Soutien dans les traitements médicaux
             </span>{" "}
             (douleurs chroniques, fatigue, burn-out...)
           </li>
           <li>
-            🎓{" "}
+            {" "}
             <span className="font-semibold">
               Aide à la concentration et à la préparation aux examens
             </span>
@@ -99,7 +99,7 @@ export default function SophrologiePage() {
       {/* Déroulement d'une séance */}
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">
         <h2 className="text-3xl font-semibold text-marron-doux mb-4">
-          🕊 Déroulement d'une Séance
+          🕊 Déroulement d&apos;une Séance
         </h2>
         <p className="text-marron-doux leading-relaxed mb-4">
           Une séance de sophrologie dure en moyenne{" "}
@@ -108,17 +108,17 @@ export default function SophrologiePage() {
         </p>
         <ul className="text-marron-doux text-left list-decimal pl-6 space-y-3">
           <li>
-            <span className="font-semibold">🗣 Accueil et échange :</span>{" "}
+            <span className="font-semibold">Accueil et échange :</span>{" "}
             Discussion pour cerner vos besoins et définir l’objectif de la
             séance.
           </li>
           <li>
-            <span className="font-semibold">🧘‍♂️ Exercices pratiques :</span>{" "}
+            <span className="font-semibold">Exercices pratiques :</span>{" "}
             Enchaînement de techniques de respiration, relaxation et
             visualisation.
           </li>
           <li>
-            <span className="font-semibold">📝 Retour d’expérience :</span>{" "}
+            <span className="font-semibold">Retour d’expérience :</span>{" "}
             Partage des ressentis et conseils pour intégrer la sophrologie dans
             le quotidien.
           </li>
