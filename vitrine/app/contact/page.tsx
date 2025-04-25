@@ -21,11 +21,25 @@ export default function ContactPage() {
         <p className="text-vert-fonce">Tél: 06 61 19 88 50</p>
         <p className="text-vert-fonce">Email: raji.elmasri@gmail.com</p>
       </div>
+      {/* Carte Google Maps */}
+      <div className="w-full max-w-2xl mx-auto mb-6 rounded-xl overflow-hidden shadow-md">
+        <iframe
+          title="Localisation du cabinet"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.039483381842!2d1.3138313654881735!3d43.4388913498842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aec9a79fc067a3%3A0xf7467b0c03f93ee0!2s7%20Esp.%20du%20Muretain%2C%2031600%20Muret!5e0!3m2!1sfr!2sfr!4v1745570738494!5m2!1sfr!2sfr"
+          
+          width="100%"
+          height="400"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
 
       {/* Horaires */}
       <div className="bg-beige-sable shadow-md rounded-xl p-6 w-full max-w-md mx-auto mb-6">
         <h2 className="text-xl font-semibold text-marron-doux mb-4">
-          Horaires d'ouverture
+          Horaires d&apos;ouverture
         </h2>
         <table className="w-full text-left border-collapse">
           <tbody>
