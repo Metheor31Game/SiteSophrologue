@@ -21,8 +21,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
           style={{ backgroundImage: "url('/images/foret.jpeg')" }}
         ></div>
 
-        <nav className="bg-vert-clair p-4 shadow-md flex justify-between items-center">
-          <div className="text-lg font-bold text-vert-fonce">Sophrologie</div>
+        <nav className="bg-white p-4 shadow-md flex justify-between items-center">
+          <div className="text-lg font-bold text-vert-fonce">
+
+            {/* a finir : police + taille + centré */}
+            <span className="text-2l">Raji Elmasri</span>  <br /> <span className="">Sophrologue</span>
+          </div>
 
           {/* Menu desktop */}
           <div className="hidden md:flex space-x-6">
@@ -63,7 +67,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
         {/* Menu mobile */}
         {menuOpen && (
-          <div className="md:hidden flex flex-col items-center bg-vert-clair p-4 space-y-4">
+          <div className="md:hidden flex flex-col items-center bg-white p-4 space-y-4">
             <Link
               href="/"
               className="text-vert-fonce hover:text-marron-doux"

@@ -7,14 +7,14 @@ export default function ContactPage() {
   return (
     <div className="bg-blanc-casse rounded-xl text-center p-6 bg-background text-foreground">
       <h1 className="text-3xl font-bold text-vert-fonce mb-4">Contact</h1>
-      <p className="text-lg mb-6 text-marron-doux">
+      <p className="text-lg mb-6 text-vert-fonce">
         Prenez rendez-vous ou posez vos questions.
       </p>
 
       {/* Carte de visite */}
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-md mx-auto">
         <h2 className="text-xl font-semibold text-marron-doux">Raji Elmasri</h2>
-        <p className="text-vert-fonce">Sophrologue certifié</p>
+        <p className="text-marron-doux">Sophrologue certifié</p>
         <p className="text-vert-fonce mt-2">
           7 esplanade du muretain, 31600 Muret
         </p>
