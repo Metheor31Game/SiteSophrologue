@@ -1,7 +1,7 @@
 export default function SophrologiePage() {
   return (
     <div className="bg-blanc-casse rounded-xl text-center p-6">
-      <h1 className="text-4xl font-bold text-vert-fonce mb-6">
+      <h1 className="text-4xl font-bold text-marron-doux mb-6">
         Découvrez la Sophrologie : Une Clé vers l&apos;Équilibre Intérieur
       </h1>
 
@@ -18,14 +18,14 @@ export default function SophrologiePage() {
       </p>
 
       {/* Les bienfaits de la sophrologie */}
+      <h2 className="text-3xl font-semibold text-marron-doux mb-4">
+        Les Bienfaits de la Sophrologie
+      </h2>
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">
-        <h2 className="text-3xl font-semibold text-marron-doux mb-4">
-          🌿 Les Bienfaits de la Sophrologie
-        </h2>
-        <p className="text-marron-doux leading-relaxed mb-4">
+        <p className="text-vert-fonce leading-relaxed mb-4">
           Pratiquée régulièrement, la sophrologie permet de :
         </p>
-        <ul className="text-marron-doux text-left list-disc pl-6 space-y-2">
+        <ul className="text-vert-fonce text-left list-disc pl-6 space-y-2">
           <li>
             Réduire le <span className="font-semibold">stress, l’anxiété</span>{" "}
             et les tensions
@@ -50,35 +50,39 @@ export default function SophrologiePage() {
       </div>
 
       {/* Domaines d'application */}
+      <h2 className="text-3xl font-semibold text-marron-doux mb-4">
+        Pour qui ?
+      </h2>
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">
-        <h2 className="text-3xl font-semibold text-marron-doux mb-4">
-          🩺 Dans quels contextes ?
-        </h2>
-        <p className="text-marron-doux leading-relaxed mb-4">
+        <p className="text-vert-fonce leading-relaxed mb-4">
           La sophrologie est utilisée dans de nombreux domaines :
         </p>
-        <ul className="text-marron-doux text-left list-disc pl-6 space-y-2">
+        <ul className="text-vert-fonce text-left list-disc pl-6 space-y-2">
           <li>
-            <span className="font-semibold">Milieu médical et paramédical</span>{" "}
-            : gestion de la douleur, accompagnement en cancérologie, préparation
-            à l’accouchement
+            Le milieu médical et paramédical, notamment en cancérologie et
+            pathologies chroniques pour la gestion de la douleur, mais également
+            en obstétrique pour la préparation à l’accouchement
           </li>
           <li>
-            <span className="font-semibold">Développement personnel</span> :
-            hypersensibilité, gestion émotionnelle, recherche d’un mieux-être
+            Le milieu du bien-être et développement personnel, la relaxation,
+            mais aussi la gestion des émotions notamment pour les personnes
+            hypersensibles
+          </li>
+          <li>Le sport, pour la préparation mentale</li>
+          <li>
+            Le milieu artistique, accompagnement des comédiens, musiciens…( par
+            exemple pour la gestion du stress avant les représentations)
           </li>
           <li>
-            <span className="font-semibold">Sport et performance</span> :
-            préparation mentale des sportifs ou des artistes avant une
-            représentation
+            Le milieu éducatif, pour la préparation aux examens chez les
+            étudiants, mais aussi l’aide face aux difficultés scolaires ou
+            familiales
           </li>
+
           <li>
-            <span className="font-semibold">Éducation</span> : préparation aux
-            examens, soutien face aux difficultés scolaires ou familiales
-          </li>
-          <li>
-            <span className="font-semibold">Entreprise</span> : qualité de vie
-            au travail, cohésion d’équipe, prévention des risques psychosociaux
+            L’entreprise dans le cadre de la qualité de vie au travail et la
+            prévention des risques psychosociaux, mais aussi pour la gestion du
+            stress et pour l’aide à la cohésion d’équipe (pratiques collectives)
           </li>
         </ul>
       </div>
@@ -89,9 +93,10 @@ export default function SophrologiePage() {
           Comment se déroule une séance ?
         </h2> */}
         <p className="text-lg text-marron-doux mb-4">
-          La peur de l&apos;inconnu est naturelle, mais elle ne doit pas empêcher de
-          faire le premier pas. Pour en savoir plus et découvrir concrètement
-          comment se déroule une séance, cliquez simplement ci-dessous.
+          La peur de l&apos;inconnu est naturelle, mais elle ne doit pas
+          empêcher de faire le premier pas. Pour en savoir plus et découvrir
+          concrètement comment se déroule une séance, cliquez simplement
+          ci-dessous.
         </p>
         <a
           href="/seance"
