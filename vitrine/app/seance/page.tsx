@@ -6,7 +6,7 @@ export default function SeancePage() {
       </h1>
 
       <p className="text-lg text-marron-doux leading-relaxed mb-6">
-        Déroulement d'une séance{" "}
+        Déroulement d&apos;une séance{" "}
       </p>
 
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">
