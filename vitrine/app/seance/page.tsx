@@ -1,13 +1,9 @@
 export default function SeancePage() {
   return (
     <div className="bg-blanc-casse rounded-xl text-center p-6">
-      <h1 className="text-4xl font-bold text-vert-fonce mb-6">
+      <h1 className="text-4xl font-bold text-marron-doux mb-6">
         Déroulement d&apos;une séance{" "}
       </h1>
-
-      <p className="text-lg text-marron-doux leading-relaxed mb-6">
-        Déroulement d&apos;une séance{" "}
-      </p>
 
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">
         <h2 className="text-3xl font-semibold text-marron-doux mb-4"></h2>
@@ -40,9 +36,11 @@ export default function SeancePage() {
       {/* Appel à l'action */}
       <div className="mt-8">
         <h2 className="text-2xl font-semibold text-marron-doux mb-2">
-         Une question ?
+          Une question ?
         </h2>
-        <p className="text-lg text-marron-doux mb-4">Rendez-vous dans l&apos;onglet Déroulement d&apos;une séance ou :</p>
+        <p className="text-lg text-marron-doux mb-4">
+          Rendez-vous dans l&apos;onglet Déroulement d&apos;une séance ou :
+        </p>
         <a
           href="/contact"
           className="bg-vert-fonce text-white font-semibold px-6 py-3 rounded-full shadow-md hover:bg-vert-doux transition"
