@@ -26,7 +26,7 @@ export default function SeancePage() {
           positives par exemple.
         </p>
         <p className="text-vert-fonce leading-relaxed mb-4">
-          La séance se termine par un échange durant lesquels vous pourrez
+          La séance se termine par un échange durant lequel vous pourrez
           exprimer votre ressenti. Je pourrais éventuellement vous proposer des
           exercices à faire dans votre quotidien.
         </p>
